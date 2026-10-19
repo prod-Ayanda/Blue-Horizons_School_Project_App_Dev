@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>
+Welcome to Blue Horizon. These Terms and Conditions govern your use of the Blue Horizon booking system and your participation in any safari events, tours, or activities organized by Blue Horizon.
+By ticking the "I Agree to the Terms and Conditions" checkbox on our System, you provide a legally binding digital 
+signature acknowledging that you have read, understood, and agreed to this Agreement.
+
+1. Booking and Payments
+Reservation Validity: A booking is only considered confirmed once Blue Horizon issues a formal confirmation receipt via email and payment reflects in our account.
+Pricing Fluctuations: All prices listed are subject to change due to fluctuating South African National Parks (SANParks) fees, government levies, or fuel price changes until the booking is fully paid.
+
+2. Cancellation and Refund Policy
+7-Day Rule: Blue Horizon enforces a strict cancellation window. No refunds will be issued for any cancellations made less than 7 days prior to the booked event date.
+Client Cancellations: Cancellations outside the 7-day window must be submitted in writing to our official email address.
+Company Cancellations: Blue Horizon reserves the right to cancel or reschedule any event due to extreme weather, safety tracking risks, civil unrest, or force majeure events. 
+In such cases, clients will be offered an alternative date or a full refund minus unrecoverable third-party conservation fees.
+No-Shows: Failure to arrive at the designated departure point at the scheduled time will result in immediate cancellation by default and total forfeiture of the booking fee.
+
+3. Safari Safety, Health, and Client Conduct
+Inherent Risks: You acknowledge that participating in a South African safari involves inherent risks, including but not limited to rough terrain, unpredictable wild animals,
+ and remote areas with limited medical facilities.Medical Requirements: Clients are responsible for ensuring they are medically fit to travel. 
+You must secure any necessary vaccinations or prophylactic medications (such as malaria precautions for specific regions) prior to the event.
+Guide Authority: Clients must strictly adhere to all rules set out by Blue Horizon guides and game rangers. Failure to comply, or behavior that endangers oneself, others, or wildlife, 
+will result in immediate expulsion from the safari without refund.
+
+4. Liability and Insurance
+Limitation of Liability: To the maximum extent permitted by South African law, Blue Horizon, its directors, and employees shall not be liable for any personal injury, illness, death, property damage, loss, 
+or delay during the event.
+Travel Insurance: It is highly recommended that all clients obtain comprehensive travel and medical insurance covering trip cancellation and emergency medical evacuation before attending.
+
+5. Data Privacy and POPIA Compliance
+Information Collection: In compliance with the Protection of Personal Information Act (POPIA) of South Africa, Blue Horizon collects your personal data (such as names, contact details) solely to process bookings
+ and ensure event safety.Third-Party Sharing: Your data will only be shared with necessary third parties (e.g., national park authorities, private game lodges) to fulfill your booking and will never be sold or used maliciously.
+
+6. Governing Law
+This Agreement is governed by and construed in accordance with the laws of the Republic of South Africa. Any disputes arising from these terms will be subject to the exclusive jurisdiction of South African courts.
+
+7. Company Contact Information
+For any cancellations, queries, or amendments, please contact Blue Horizon via:
+Email: BlueHorizon@gmail.com
+Phone / WhatsApp: 069 752 5854 or 060 374 2650</value>
+  </data>
+</root>

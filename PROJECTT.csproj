@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{472A3C1A-EC52-406C-A733-E0CEE79A8701}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PROJECTT</RootNamespace>
+    <AssemblyName>PROJECTT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminDashboard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard2.Designer.cs">
+      <DependentUpon>AdminDashboard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browse_Attractions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Browse_Attractions.Designer.cs">
+      <DependentUpon>Browse_Attractions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Editstory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editstory.Designer.cs">
+      <DependentUpon>Editstory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome_page_Admin_locked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome_page_Admin_locked.Designer.cs">
+      <DependentUpon>Welcome_page_Admin_locked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmForgot Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmForgot Password.Designer.cs">
+      <DependentUpon>frmForgot Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResetPassword.Designer.cs">
+      <DependentUpon>frmResetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTerms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTerms.Designer.cs">
+      <DependentUpon>frmTerms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSession.cs" />
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPasskey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPasskey.Designer.cs">
+      <DependentUpon>frmPasskey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <!-- Models -->
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\Booking.cs" />
+    <Compile Include="Models\Invoice.cs" />
+    <Compile Include="Models\ContactMessage.cs" />
+    <Compile Include="Services\ContactService.cs" />
+    <Compile Include="Services\EmailService.cs" />
+    <Compile Include="Services\TicketPdfService.cs" />
+    <Compile Include="Services\BookingService.cs" />
+    <!-- Services -->
+    <Compile Include="Services\PasswordHelper.cs" />
+    <Compile Include="Services\FileService.cs" />
+    <Compile Include="Services\SeedService.cs" />
+    <Compile Include="Services\SafariThemeEngine.cs" />
+    <Compile Include="Services\SafariChatbotService.cs" />
+    <!-- Dashboard Forms -->
+    <Compile Include="Forms\AdminDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AdminDashboardForm.Designer.cs">
+      <DependentUpon>AdminDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SafariChatbotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SafariChatbotForm.Designer.cs">
+      <DependentUpon>SafariChatbotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VisitorDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VisitorDashboardForm.Designer.cs">
+      <DependentUpon>VisitorDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\AdminDashboardForm.resx">
+      <DependentUpon>AdminDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SafariChatbotForm.resx">
+      <DependentUpon>SafariChatbotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VisitorDashboardForm.resx">
+      <DependentUpon>VisitorDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminDashboard2.resx">
+      <DependentUpon>AdminDashboard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browse_Attractions.resx">
+      <DependentUpon>Browse_Attractions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStory.resx">
+      <DependentUpon>Editstory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome_page_Admin_locked.resx">
+      <DependentUpon>Welcome_page_Admin_locked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmForgot Password.resx">
+      <DependentUpon>frmForgot Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResetPassword.resx">
+      <DependentUpon>frmResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTerms.resx">
+      <DependentUpon>frmTerms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ChatGPT Image Aug 29, 2026, 02_55_26 AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\safari_elephants_moving.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\i safarii.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\tourism_image_496x669.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ChatGPT Image Aug 29, 2026, 02_51_07 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ChatGPT Image Aug 29, 2026, 02_51_07 PM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\9b5a6322-29e8-43b8-ac0a-1f23dd076d0f.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ChatGPT Image Aug 29, 2026, 03_24_39 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ChatGPT Image Aug 29, 2026, 03_24_39 PM1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ChatGPT Image Aug 29, 2026, 03_30_30 PM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\emaill.jpg" />
+    <EmbeddedResource Include="Resources\safariscout_send_btn.png" />
+    <EmbeddedResource Include="Resources\design_welcome.png" />
+    <EmbeddedResource Include="Resources\design_welcome_locked.png" />
+    <EmbeddedResource Include="Resources\design_admin_hub.png" />
+    <EmbeddedResource Include="Resources\design_visitor_analytics.png" />
+    <EmbeddedResource Include="Resources\design_accordion_gallery.png" />
+    <EmbeddedResource Include="Resources\safariscout_bot_small.png" />
+    <EmbeddedResource Include="Resources\safariscout_user_avatar.png" />
+    <EmbeddedResource Include="Resources\safariscout_compass.png" />
+    <EmbeddedResource Include="Resources\safariscout_bot_header.png" />
+    <EmbeddedResource Include="Resources\bg_forgot_reset.jpg" />
+    <EmbeddedResource Include="Resources\welcome_pic1_bg.jpg" />
+    <EmbeddedResource Include="Resources\login_panel3_bg.jpg" />
+    <EmbeddedResource Include="Resources\login_pic3.jpg" />
+    <EmbeddedResource Include="Resources\bg_dashboard.jpg" />
+    <EmbeddedResource Include="Resources\bg_admin_dashboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\passworddd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\hidepassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\showpassword.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blue_horizon_610x703.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\home_Background1.jpg" />
+    <Content Include="Text Files\CompanyStory.txt" />
+    <Content Include="Text Files\TempVisitor.txt" />
+    <Content Include="Text Files\Visitor.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="RemoveMarkOfTheWeb" BeforeTargets="BeforeBuild;PrepareResources;CoreResGen">
+    <Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -Command &quot;Get-ChildItem -LiteralPath &apos;$(MSBuildProjectDirectory)&apos; -Recurse | Unblock-File -ErrorAction SilentlyContinue&quot;" IgnoreExitCode="true" Condition="&apos;$(OS)&apos; == &apos;Windows_NT&apos;" />
+  </Target>
+</Project>
